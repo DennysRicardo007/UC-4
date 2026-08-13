@@ -1,8 +1,7 @@
 # 📚 Turma 125
 
 ## 📖 Sobre
-
-Este projeto reúne tudo o que aprendemos durante as aulas da Turma 125 e quem somos.
+Somos a Turma 125! Este projeto foi criado para apresentar quem somos, os projetos que desenvolvemos e um pouco do que aprendemos durante nossa jornada nas aulas.
 
 ## 👥 Integrantes
 
