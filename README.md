@@ -20,13 +20,19 @@ Este projeto reúne tudo o que aprendemos durante as aulas da Turma 125 e quem s
 2. Abra a pasta no VS Code.
 3. Abra o arquivo `index.html`.
 4. Execute o arquivo no navegador.
-   
+
+## 📋 Board do Projeto
+
+Acompanhe as tarefas, atividades e o andamento do projeto através da nossa Board.
+
+🔗 **[Acessar a Board do Projeto](https://github.com/users/DennysRicardo007/projects/5)**  
+
 ## 📁 Estrutura do Projeto
 
 ```text
 Turma-125/
 ├── index.html
 ├── style.css
-└── README.md
+
 
 
