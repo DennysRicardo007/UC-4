@@ -10,6 +10,7 @@ Somos a Turma 125! Este projeto foi criado para apresentar quem somos, os projet
 - Beatriz Coutinho
 - Carlos Eduardo
 - Carlos Henrique
+- Cauan Abraão
 - Dennys Ricardo
 - Eduardo Vieira
 - Gabriel Felipe
