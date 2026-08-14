@@ -5,8 +5,31 @@ Somos a Turma 125! Este projeto foi criado para apresentar quem somos, os projet
 
 ## 👥 Integrantes
 
-- Aira
-- Dennys
+- Aira Soares
+- Alan Kauan
+- Beatriz Coutinho
+- Carlos Eduardo
+- Carlos Henrique
+- Dennys Ricardo
+- Eduardo Vieira
+- Gabriel Felipe
+- George Lucas
+- Heloisa Vieira
+- Jéssica Silva
+- João Lucas
+- João Pedro 
+- Kauã André
+- Laura Sofia
+- Luísa Melo
+- Luiz Miranda
+- Maria Eduarda 
+- Maria Regina 
+- Pedro Martins
+- Pedro Philipe
+- Pedro Vitor
+- Raimundo Anthoni
+- Ramon de Oliveira
+- Raquel Moreira
 
 ## 💻 Tecnologias
 
