@@ -125,48 +125,252 @@ nav a {
  
 #projetos {
     background-color: #F7F1E8;
-    padding: 80px 10%;
+    padding: 100px 10%;
 }
- 
-#projetos h2 {
-    font-size: 45px;
-    color: #262422;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
- 
-.projeto {
-    background-color: #FFFFFF;
-    padding: 20px;
-    margin-bottom: 30px;
-}
- 
-.projeto img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    margin-bottom: 20px;
-}
- 
-.projeto h3 {
-    font-size: 30px;
-    color: #262422;
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
- 
-.projeto p {
-    color: #6F6A63;
+
+
+/* pequeno título da seção */
+
+.projetos-label {
+    display: block;
+
+    font-family: 'IBM Plex Mono', monospace;
+
+    font-size: 11px;
+
+    color: #B98D4F;
+
+    letter-spacing: 2px;
+
     margin-bottom: 15px;
 }
- 
-.projeto a {
-    font-family: 'IBM Plex Mono', monospace;
-    color: #B98D4F;
-    text-decoration: none;
-    font-size: 11px;
+
+
+/* título */
+
+#projetos h2 {
+    font-family: 'Fraunces', serif;
+
+    font-size: 45px;
+
+    color: #262422;
+
+    margin-top: 0;
+    margin-bottom: 15px;
 }
- 
+
+
+/* destaque do título */
+
+#projetos h2 em {
+    color: #B98D4F;
+
+    font-style: italic;
+}
+
+
+/* texto abaixo do título */
+
+.projetos-introducao {
+    color: #6F6A63;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    max-width: 550px;
+
+    margin-bottom: 50px;
+}
+
+
+/* container dos projetos */
+
+.projetos-container {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+}
+
+
+/* card */
+
+.projeto {
+    background-color: #FFFFFF;
+
+    padding: 0;
+
+    margin-bottom: 0;
+
+    border: 1px solid #B6A998;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+/* efeito ao passar o mouse */
+
+.projeto:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 12px 30px rgba(38, 36, 34, 0.10);
+}
+
+
+/* imagem */
+
+.projeto-imagem {
+    width: 100%;
+
+    height: 250px;
+
+    overflow: hidden;
+
+    background-color: #EDE7DE;
+}
+
+
+.projeto-imagem img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition: transform 0.3s ease;
+}
+
+
+.projeto:hover .projeto-imagem img {
+    transform: scale(1.03);
+}
+
+
+/* conteúdo */
+
+.projeto-conteudo {
+    position: relative;
+
+    padding: 30px;
+}
+
+
+/* número */
+
+.projeto-numero {
+    position: absolute;
+
+    top: 25px;
+
+    right: 30px;
+
+    font-family: 'IBM Plex Mono', monospace;
+
+    font-size: 11px;
+
+    color: #6F6A63;
+
+    letter-spacing: 1px;
+}
+
+
+/* categoria */
+
+.projeto .label {
+    margin-bottom: 10px;
+
+    color: #B98D4F;
+
+    font-size: 10px;
+
+    letter-spacing: 1.5px;
+}
+
+
+/* nome */
+
+.projeto h3 {
+    font-family: 'Fraunces', serif;
+
+    font-size: 32px;
+
+    font-weight: 500;
+
+    color: #262422;
+
+    margin-top: 0;
+
+    margin-bottom: 12px;
+}
+
+
+/* descrição */
+
+.projeto-conteudo > p:not(.label) {
+    color: #6F6A63;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    margin-bottom: 25px;
+}
+
+
+/* link */
+
+.projeto a {
+    display: inline-block;
+
+    font-family: 'IBM Plex Mono', monospace;
+
+    font-size: 11px;
+
+    color: #262422;
+
+    text-decoration: none;
+
+    border: 1px solid #262422;
+
+    padding: 10px 16px;
+
+    transition: 0.2s ease;
+}
+
+
+/* hover do link */
+
+.projeto a:hover {
+    background-color: #262422;
+
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 750px) {
+
+    .projetos-container {
+        grid-template-columns: 1fr;
+    }
+
+    #projetos {
+        padding: 70px 8%;
+    }
+
+    #projetos h2 {
+        font-size: 38px;
+    }
+
+}
  
 /* sessão da equipe */
  
