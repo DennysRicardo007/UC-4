@@ -1,7 +1,7 @@
-# 📚 MOCAU
+# 📚TURMA 125
 
 ## 📖 Sobre
-
+Portifólio sobre a turma e tudo que construímos e aprendemos. 
 
 ## 👥 Integrantes
 
@@ -48,7 +48,7 @@
 
 Acompanhe as tarefas, atividades e o andamento do projeto através da nossa Board.
 
-🔗 **[Acessar a Board do Projeto](https://github.com/users/DennysRicardo007/projects/3)**  
+🔗 **[Acessar a Board do Projeto](https://github.com/users/DennysRicardo007/projects/5)**  
 
 ## 📁 Estrutura do Projeto
 
