@@ -1,140 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-}
- 
-body {
-    font-family: 'Inter', sans-serif;
-    color: #262422;
-    background-color: #F7F1E8;
-}
- 
-/* fontes */
- 
-h1 {
-    font-family: 'Fraunces', serif;
-}
- 
-h2 {
-    font-family: 'Fraunces', serif;
-}
- 
-h3 {
-    font-family: 'Fraunces', serif;
-}
- 
- 
-/* barra superior */
- 
-header {
-    background-color: #F7F1E8;
-    padding: 20px;
-    text-align: center;
-}
- 
- 
-/* LOGO */
- 
-.logo {
-    font-family: 'Rubik Mono One', sans-serif;
-    color: #262422;
-    font-size: 28px;
-}
- 
-nav {
-    margin-top: 20px;
-}
- 
-nav a {
-    font-family: 'IBM Plex Mono', monospace;
-    color: #262422;
-    text-decoration: none;
-    margin: 15px;
-}
- 
-.label {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px;
-    color: #6F6A63;
-}
- 
- 
-/* inicio */
- 
-#inicio {
-    background-color: #F7F1E8;
-    padding: 100px 10%;
-}
- 
-#inicio h2 {
-    font-size: 65px;
-    color: #262422;
-    margin-top: 25px;
-}
- 
-#inicio em {
-    color: #B98D4F;
-}
- 
-.texto-inicio {
-    color: #6F6A63;
-    font-size: 16px;
-    margin-top: 25px;
-    margin-bottom: 30px;
-}
- 
-.botao {
-    background-color: #262422;
-    color: #FFFFFF;
-    padding: 12px 20px;
-    text-decoration: none;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px;
-}
- 
- 
-/* quem somos */
- 
-#quem-somos {
-    background-color: #FFFFFF;
-    padding: 80px 10%;
-}
- 
-#quem-somos h2 {
-    font-size: 45px;
-    color: #262422;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
- 
-#quem-somos img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    margin-bottom: 30px;
-}
- 
-#quem-somos p {
-    color: #6F6A63;
-    line-height: 1.6;
-    margin-bottom: 15px;
-}
- 
- 
-/* projetos */
- 
+/* =========================
+   PROJETOS
+========================= */
+
 #projetos {
     background-color: #F7F1E8;
+
+    min-height: 100vh;
+
     padding: 100px 10%;
 }
 
 
-/* pequeno título da seção */
+/* =========================
+   IDENTIFICAÇÃO DA SEÇÃO
+========================= */
 
 .projetos-label {
     display: block;
 
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Calibre (ms)', sans-serif;
 
     font-size: 11px;
 
@@ -146,7 +30,9 @@ nav a {
 }
 
 
-/* título */
+/* =========================
+   TÍTULO
+========================= */
 
 #projetos h2 {
     font-family: 'Fraunces', serif;
@@ -160,7 +46,7 @@ nav a {
 }
 
 
-/* destaque do título */
+/* palavra destacada */
 
 #projetos h2 em {
     color: #B98D4F;
@@ -169,7 +55,9 @@ nav a {
 }
 
 
-/* texto abaixo do título */
+/* =========================
+   INTRODUÇÃO
+========================= */
 
 .projetos-introducao {
     color: #6F6A63;
@@ -184,7 +72,9 @@ nav a {
 }
 
 
-/* container dos projetos */
+/* =========================
+   CONTAINER DOS PROJETOS
+========================= */
 
 .projetos-container {
     display: grid;
@@ -195,7 +85,9 @@ nav a {
 }
 
 
-/* card */
+/* =========================
+   CARD DO PROJETO
+========================= */
 
 .projeto {
     background-color: #FFFFFF;
@@ -224,7 +116,9 @@ nav a {
 }
 
 
-/* imagem */
+/* =========================
+   IMAGEM
+========================= */
 
 .projeto-imagem {
     width: 100%;
@@ -255,7 +149,9 @@ nav a {
 }
 
 
-/* conteúdo */
+/* =========================
+   CONTEÚDO DO CARD
+========================= */
 
 .projeto-conteudo {
     position: relative;
@@ -264,7 +160,7 @@ nav a {
 }
 
 
-/* número */
+/* número do projeto */
 
 .projeto-numero {
     position: absolute;
@@ -296,7 +192,7 @@ nav a {
 }
 
 
-/* nome */
+/* nome do projeto */
 
 .projeto h3 {
     font-family: 'Fraunces', serif;
@@ -326,7 +222,9 @@ nav a {
 }
 
 
-/* link */
+/* =========================
+   BOTÃO / LINK
+========================= */
 
 .projeto a {
     display: inline-block;
@@ -347,8 +245,6 @@ nav a {
 }
 
 
-/* hover do link */
-
 .projeto a:hover {
     background-color: #262422;
 
@@ -356,76 +252,31 @@ nav a {
 }
 
 
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
 @media (max-width: 750px) {
 
-    .projetos-container {
-        grid-template-columns: 1fr;
-    }
-
     #projetos {
+        min-height: 100vh;
+
         padding: 70px 8%;
     }
+
 
     #projetos h2 {
         font-size: 38px;
     }
 
-}
- 
-/* sessão da equipe */
- 
-#equipe {
-    background-color: #FFFFFF;
-    padding: 80px 10%;
-}
- 
-#equipe h2 {
-    font-size: 45px;
-    color: #262422;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
- 
-#equipe > p {
-    color: #6F6A63;
-    margin-bottom: 30px;
-}
- 
-.pessoa {
-    background-color: #F7F1E8;
-    padding: 20px;
-    margin-bottom: 30px;
-}
- 
-.pessoa img {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-}
- 
-.pessoa h3 {
-    color: #262422;
-    font-size: 25px;
-    margin-top: 15px;
-}
- 
-.cargo {
-    font-family: 'IBM Plex Mono', monospace;
-    color: #6F6A63;
-    font-size: 11px;
-}
- 
- 
-/* footer */
- 
-footer {
-    background-color: #262422;
-    padding: 30px;
-    text-align: center;
-}
- 
-footer p {
-    color: #FFFFFF;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 11px;
+
+    .projetos-container {
+        grid-template-columns: 1fr;
+    }
+
+
+    .projeto-imagem {
+        height: 220px;
+    }
+
 }
