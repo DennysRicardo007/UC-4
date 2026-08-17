@@ -280,3 +280,113 @@
     }
 
 }
+ 
+/* sessão da equipe */
+
+#equipe {
+    background-color: #FFFFFF;
+    padding: 80px 10%;
+}
+
+#equipe .numero-secao {
+    display: inline-block;
+    color: #b07a3a;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.barra-secao {
+    height: 8px;
+    background: rgba(176,122,58,0.08);
+    border-radius: 4px;
+    margin: 8px 0 28px 0;
+}
+
+#equipe h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 40px;
+    line-height: 1.05;
+    font-weight: 400;
+    color: #2a2a2a;
+    margin: 0 0 12px 0;
+}
+#equipe h2 em { font-style: italic; color: #2a2a2a; }
+
+.descricao-equipe {
+    max-width: 760px;
+    color: #666;
+    margin: 10px 0 32px 0;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.lista-equipe {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 18px;
+    align-items: start;
+}
+
+.pessoa {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: rgba(250,248,246,0.9);
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 6px 18px rgba(25,20,15,0.04);
+    transition: transform .12s ease, box-shadow .12s ease;
+}
+.pessoa:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(25,20,15,0.07);
+}
+
+.pessoa img {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #f0ebe6;
+    border: 3px solid rgba(255,255,255,0.6);
+}
+
+.dados-pessoa h3 {
+    margin: 0;
+    font-size: 15px;
+    color: #2b2b2b;
+    font-weight: 600;
+    font-family: 'Inter', Arial, sans-serif;
+}
+.dados-pessoa .cargo {
+    margin: 4px 0 0 0;
+    font-size: 12px;
+    color: #8a8580;
+    line-height: 1.2;
+}
+
+@media (min-width: 900px) {
+    .lista-equipe { grid-template-columns: repeat(4, 1fr); }
+}
+@media (min-width: 1200px) {
+    /* Força 6 colunas em telas largas */
+    .lista-equipe { grid-template-columns: repeat(6, 1fr); }
+}
+@media (max-width: 500px) {
+    #equipe h2 { font-size: 28px; }
+    .pessoa img { width: 48px; height: 48px; }
+}
+ 
+ 
+/* footer */
+ 
+footer {
+    background-color: #262422;
+    padding: 30px;
+    text-align: center;
+}
+ 
+footer p {
+    color: #FFFFFF;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+}
