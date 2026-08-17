@@ -1,7 +1,7 @@
-# 📚 Turma 125
+# 📚 MOCAU
 
 ## 📖 Sobre
-Somos a Turma 125! Este projeto foi criado para apresentar quem somos, os projetos que desenvolvemos e um pouco do que aprendemos durante nossa jornada nas aulas.
+
 
 ## 👥 Integrantes
 
@@ -48,7 +48,7 @@ Somos a Turma 125! Este projeto foi criado para apresentar quem somos, os projet
 
 Acompanhe as tarefas, atividades e o andamento do projeto através da nossa Board.
 
-🔗 **[Acessar a Board do Projeto](https://github.com/users/DennysRicardo007/projects/5)**  
+🔗 **[Acessar a Board do Projeto](https://github.com/users/DennysRicardo007/projects/3)**  
 
 ## 📁 Estrutura do Projeto
 
