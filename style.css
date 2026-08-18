@@ -105,15 +105,16 @@ nav a {
     line-height: 1.6;
     margin-bottom: 15px;
 }
- 
+
 #projetos {
     background-color: #F7F1E8;
+    min-height: 100vh;
     padding: 100px 10%;
 }
 
 .projetos-label {
     display: block;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Calibre (ms)', sans-serif;
     font-size: 11px;
     color: #B98D4F;
     letter-spacing: 2px;
@@ -235,16 +236,25 @@ nav a {
 }
 
 @media (max-width: 750px) {
+  
     .projetos-container {
         grid-template-columns: 1fr;
-    }
-
+      
     #projetos {
+        min-height: 100vh;
         padding: 70px 8%;
     }
 
     #projetos h2 {
         font-size: 38px;
+    }
+
+    .projetos-container {
+        grid-template-columns: 1fr;
+    }
+
+    .projeto-imagem {
+        height: 220px;
     }
 }
  
