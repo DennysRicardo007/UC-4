@@ -1,9 +1,61 @@
-#NOME DO PROJETO
-##SOBRE
-##INTEGRANTES
-##TECNOLOGIAS
--HTML
--CSS
-##ESTRUTURA DO PROJETO
-##COMO EXECUTAR
-##STATUS DO PROJETO
+# 📚 Turma 125
+
+## 📖 Sobre
+Somos a Turma 125! Este projeto foi criado para apresentar quem somos, os projetos que desenvolvemos e um pouco do que aprendemos durante nossa jornada nas aulas.
+
+## 👥 Integrantes
+
+- Aira Soares
+- Alan Kauan
+- Beatriz Coutinho
+- Carlos Eduardo
+- Carlos Henrique
+- Cauan Abraão
+- Dennys Ricardo
+- Eduardo Vieira
+- Gabriel Felipe
+- George Lucas
+- Heloisa Vieira
+- Jéssica Silva
+- João Lucas
+- João Pedro 
+- Kauã André
+- Laura Sofia
+- Luísa Melo
+- Luiz Miranda
+- Maria Eduarda 
+- Maria Regina 
+- Pedro Martins
+- Pedro Philipe
+- Pedro Vitor
+- Raimundo Anthoni
+- Ramon de Oliveira
+- Raquel Moreira
+
+## 💻 Tecnologias
+
+- HTML
+- CSS
+
+## 🚀 Como Executar
+
+1. Baixe o projeto para o seu computador.
+2. Abra a pasta no VS Code.
+3. Abra o arquivo `index.html`.
+4. Execute o arquivo no navegador.
+
+## 📋 Board do Projeto
+
+Acompanhe as tarefas, atividades e o andamento do projeto através da nossa Board.
+
+🔗 **[Acessar a Board do Projeto](https://github.com/users/DennysRicardo007/projects/5)**  
+
+## 📁 Estrutura do Projeto
+
+```text
+Turma-125/
+├── index.html
+├── style.css
+
+
+
