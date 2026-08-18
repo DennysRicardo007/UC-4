@@ -268,7 +268,7 @@ nav a {
  
 #equipe {
     background-color: #FFFFFF;
-    height: 100vh;
+    min-height: 100vh;
     box-sizing: border-box;
     padding: 80px 10%;
     display: flex;
@@ -298,9 +298,9 @@ nav a {
     margin: 0 0 12px 0;
 }
 
-#equipe h2 em { 
-    font-style: italic; 
-    color: #2a2a2a; 
+#equipe h2 em {
+    font-style: italic;
+    color: #2a2a2a;
 }
 
 .descricao-equipe {
@@ -313,15 +313,16 @@ nav a {
 
 .lista-equipe {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 18px;
-    align-items: start;
+    width: 100%;
 }
 
 .pessoa {
     display: flex;
     align-items: center;
     gap: 16px;
+    min-width: 0;
     background: rgba(250,248,246,0.9);
     border-radius: 10px;
     padding: 16px;
@@ -337,10 +338,15 @@ nav a {
 .pessoa img {
     width: 56px;
     height: 56px;
+    min-width: 56px;
     object-fit: cover;
     border-radius: 50%;
     background: #f0ebe6;
     border: 3px solid rgba(255,255,255,0.6);
+}
+
+.dados-pessoa {
+    min-width: 0;
 }
 
 .dados-pessoa h3 {
@@ -349,7 +355,9 @@ nav a {
     color: #2b2b2b;
     font-weight: 600;
     font-family: 'Inter', Arial, sans-serif;
+    overflow-wrap: break-word;
 }
+
 .dados-pessoa .cargo {
     margin: 4px 0 0 0;
     font-size: 12px;
@@ -357,16 +365,52 @@ nav a {
     line-height: 1.2;
 }
 
-@media (min-width: 900px) {
-    .lista-equipe { grid-template-columns: repeat(4, 1fr); }
-}
+/* Telas grandes */
 @media (min-width: 1200px) {
-    /* Força 6 colunas em telas largas */
-    .lista-equipe { grid-template-columns: repeat(6, 1fr); }
+    .lista-equipe {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
 }
+
+/* Tablets */
+@media (max-width: 900px) {
+    #equipe {
+        padding: 70px 8%;
+    }
+
+    .lista-equipe {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Celulares */
 @media (max-width: 500px) {
-    #equipe h2 { font-size: 28px; }
-    .pessoa img { width: 48px; height: 48px; }
+    #equipe {
+        padding: 60px 6%;
+    }
+
+    #equipe h2 {
+        font-size: 28px;
+    }
+
+    .descricao-equipe {
+        font-size: 14px;
+    }
+
+    .lista-equipe {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .pessoa {
+        padding: 14px;
+    }
+
+    .pessoa img {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+    }
 }
   
 footer {
